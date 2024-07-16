@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="images/a.jpg" class="logo"> -->
+            <ul class="nav justify-content-center">
+                    <li class="nav-item"><a href="#about" class="text-white " >About</a></li>
+                    <li class="nav-item"><a href="#skills" class="text-white">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="text-white">Projects</a></li>
+                    <li class="nav-item "><a href="#contact" class="text-white">Contact</a></li>
+                    <li class="nav-item "><a href="#videos" class="text-white" >Videos</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="header-text text-white">
+            <p>Web Developer</p>
+            <h1> Hi, I'm Khushi </h1>
+        </div>
+
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/a.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm ambitious, adaptable and have good knowledge of full-stack development, and am skilled in practical solution development and implementation. I support productive teamwork through good planning, adaptability and communication. I'm also adept at multitasking in a high-pressure environment, and I thrive within deadline-driven conditions. I demonstrate superb work ethic and commitment to special projects.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')"> Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                    <p class="tab-links" onclick="opentab('education')"> Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ol >
+                        <li ><span><b>Core Web Technologies</b></span><br>
+                            <ul>
+                                <li>a. HTML5  b. CSS3  c. Javascript</li>
+                                
+
+                            </ul>
+                        </li>
+                            
+                        <li><span><b>Front-End Frameworks and Libraries</b></span><br>
+                            <ul>
+                                <li>a. React b. Angular</li>
+                                
+                              
+                            </ul>
+                        </li>
+                        <li><span><b>Back-End Development</b></span><br>
+                            <ul>
+                                <li>a. Node.js b. Express.js c. Django</li>
+                                
+                              
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span><b>2014-2020</b></span><br>Edubrite</li>
+                        <li><span><b>2020-2024</b></span><br>Infosys</li>
+                        <!-- <li><span>UI/UX</span><br>Designing Web/App Interfaces</li> -->
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div> 
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="">
+                <div class="layer">
+                    <h3>Project 1</h3>
+                    <p> abcd</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="">
+                <div class="layer">
+                    <h3>Project 1</h3>
+                    <p> abcd</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="">
+                <div class="layer">
+                    <h3>Project 1</h3>
+                    <p> abcd</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa fa-send" aria-hidden="true"></i> bhavikasoni077@gmail.com</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> 8905382062</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="images/project1.jpg" alt="Project 1">
+      <div class="project-info">
+        <h3>Project 1</h3>
+        <p>A brief description of Project 1.</p>
+        <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+    <div class="project">
+      <img src="images/project2.jpg" alt="Project 2">
+      <div class="project-info">
+        <h3>Project 2</h3>
+        <p>A brief description of Project 2.</p>
+        <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+    <div class="project">
+      <img src="images/project3.jpg" alt="Project 3">
+      <div class="project-info">
+        <h3>Project 3</h3>
+        <p>A brief description of Project 3.</p>
+        <a href="https://github.com/yourusername/project3" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+     Add more project sections as needed 
+  </section> -->
+
+<script> 
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+     <!-- <header class="bg-dark text-white text-center py-3">
+        <h1>Khushi's Portfolio</h1>
+        <nav>
+            
+        </nav>
+    </header>
+
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <p>Hi, I'm Khushi, a visionary web developer with a passion for creating cutting-edge websites. My work stands out by combining technical expertise with innovative design.</p>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2>Skills</h2>
+        <ul class="list-group">
+            <li class="list-group-item skill" data-detail="Proficient in creating structured, accessible web content using HTML.">HTML</li>
+            <li class="list-group-item skill" data-detail="Experienced in styling and layout design with CSS, including Flexbox and Grid.">CSS</li>
+            <li class="list-group-item skill" data-detail="Skilled in programming with JavaScript, including ES6+ features and libraries like React.">JavaScript</li>
+            <li class="list-group-item skill" data-detail="Knowledgeable in building single-page applications using React.">React</li>
+            <li class="list-group-item skill" data-detail="Experienced in building scalable web applications using Node.js and Express.">Node.js</li>
+            <li class="list-group-item skill" data-detail="Experienced in working with MongoDB and SQL databases for backend development.">MongoDB, SQL</li>
+        </ul>
+        <div id="skillDetail" class="mt-3"></div>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4 project">
+                <img src="project1.png" alt="Project 1 Screenshot" class="img-fluid">
+                <p>Project 1 Description</p>
+            </div>
+            <div class="col-md-4 project">
+                <img src="project2.png" alt="Project 2 Screenshot" class="img-fluid">
+                <p>Project 2 Description</p>
+            </div>
+             Add more projects as needed 
+         </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="text" id="mobile" name="mobile" class="form-control" required pattern="\d{10}">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="organization">Organization:</label>
+                <input type="text" id="organization" name="organization" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+        <p id="formStatus" class="mt-3"></p>
+    </section>
+
+    <section id="videos" class="container my-5">
+        <h2>Videos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="video-thumbnail1.jpg" alt="Video 1" class="img-fluid video-thumbnail" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                <p>Introductory Video</p>
+            </div>
+            <div class="col-md-4">
+                <img src="video-thumbnail2.jpg" alt="Video 2" class="img-fluid video-thumbnail" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                <p>About Me</p>
+            </div>
+            <div class="col-md-4">
+                <img src="video-thumbnail3.jpg" alt="Video 3" class="img-fluid video-thumbnail" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                <p>Project Explanation</p>
+            </div>
+        </div>
+        <div id="videoPlayer" class="mt-3"></div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Khushi's Portfolio</p>
+    </footer>
+
+    <script src="scripts.js"></script> -->
+</body>
+</html> 
